@@ -18,7 +18,7 @@ public class Episodio {
         try {
             this.avaliacao = Double.valueOf(dadosEpisodio.avaliacao());
         } catch (NumberFormatException ex) {
-            this.avaliacao = null;
+            this.avaliacao = 0.0;
         }
 
         try{
